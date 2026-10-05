@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "local.help-rune",
+  "name": "Help Rune",
+  "version": "1.0.0",
+  "author": "uno",
+  "description": "A ? button to show Omarchy keybindings",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Help Rune",
+    "description": "Show Omarchy keybindings",
+    "defaultSection": "right",
+    "category": "Utilities"
+  }
+}
