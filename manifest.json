@@ -1,10 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "local.help-rune",
+  "id": "io.github.uno88-byte.help-rune",
   "name": "Help Rune",
-  "version": "1.0.0",
-  "author": "uno",
-  "description": "A ? button to show Omarchy keybindings",
+  "version": "0.1.0",
+  "author": "uno88-byte",
+  "description": "A ? button in the bar that shows Omarchy keybindings. SUPER+I to open help. Beginner-friendly.",
+  "license": "MIT",
+  "repository": "https://github.com/uno88-byte/omarchy-help-rune",
   "kinds": [
     "bar-widget"
   ],
@@ -13,8 +15,9 @@
   },
   "barWidget": {
     "displayName": "Help Rune",
-    "description": "Show Omarchy keybindings",
+    "description": "Shows keybindings help",
+    "category": "System",
     "defaultSection": "right",
-    "category": "Utilities"
+    "allowMultiple": false
   }
 }
