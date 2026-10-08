@@ -11,10 +11,10 @@ BarWidget {
     anchors.fill: parent
     bar: root.bar
     text: "?"
-    tooltipText: "Show keybindings (SUPER + /)"
+    tooltipText: "Show keybindings (SUPER + I)"
     onPressed: function(b) {
       if (b === 1) {
-        root.bar.run("~/.local/bin/omarchy-show-keybindings &")
+        root.bar.run("bash -c 'GSK_RENDERER=ngl omarchy-menu-keybindings &'")
       }
     }
   }
